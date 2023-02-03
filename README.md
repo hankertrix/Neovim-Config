@@ -13,7 +13,7 @@ Plugin manager - [lazy.nvim](https://github.com/folke/lazy.nvim)
 <br>
 
 
-##### Appearance
+#### Appearance
 
 Theme - [bluloco.nvim](https://github.com/uloco/bluloco.nvim)
 
@@ -25,7 +25,7 @@ Bufferline / tabline - [bufferline.nvim](https://github.com/akinsho/bufferline.n
 <br>
 
 
-##### Integrations
+#### Integrations
 
 Git integration - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 
@@ -35,7 +35,7 @@ Using neovim in the browser - [firenvim](https://github.com/glacambre/firenvim)
 <br>
 
 
-##### Coding
+#### Coding
 
 LSP - [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim) with [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
 
@@ -80,7 +80,7 @@ Same word highlighting - [vim-illuminate](https://github.com/RRethy/vim-illumina
 <br>
 
 
-##### Managing files
+#### Managing files
 
 File tree and explorer - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 
@@ -97,7 +97,7 @@ Telescope extensions:
 <br>
 
 
-##### Helpers
+#### Helpers
 
 Properly close buffers - [vim-bbye](https://github.com/moll/vim-bbye)
 
@@ -109,12 +109,12 @@ Undo history viewer - [undotree](https://github.com/mbbill/undotree)
 <br>
 
 
-##### Miscellaneous
+#### Miscellaneous
 
 VimBeGood game - [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
 
 
-##### External programs
+#### External programs
 
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [fd](https://github.com/sharkdp/fd)
