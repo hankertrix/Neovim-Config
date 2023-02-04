@@ -116,6 +116,9 @@ Markdown previewer - [markdown-preview.nvim](https://github.com/iamcco/markdown-
 VimBeGood game - [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
 
 
+<br>
+
+
 #### External programs
 
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
