@@ -105,6 +105,8 @@ Helper for key bindings - [which-key.nvim](https://github.com/folke/which-key.nv
 
 Undo history viewer - [undotree](https://github.com/mbbill/undotree)
 
+Markdown previewer - [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim)
+
 
 <br>
 

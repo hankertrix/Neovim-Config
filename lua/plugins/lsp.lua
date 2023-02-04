@@ -108,7 +108,7 @@ return {
     "VonHeikemen/lsp-zero.nvim",
     branch = "v1.x",
     cond = utils.firenvim_not_active,
-    event = "BufEnter",
+    event = { "BufReadPre", "BufNewFile" },
     config = lsp_setup,
     dependencies = {
 
