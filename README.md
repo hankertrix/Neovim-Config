@@ -47,14 +47,18 @@ Autocompletion sources:
 
 - [cmp-path](https://github.com/hrsh7th/cmp-path)
 - [cmp-nvim-lsp-signature-help](https://github.com/hrsh7th/cmp-nvim-lsp-signature-help)
+- [cmp-tabnine](https://github.com/tzachar/cmp-tabnine)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
+- [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
 - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
 - [cmp-treesitter](https://github.com/ray-x/cmp-treesitter)
 - [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)
 - [cmp-calc](https://github.com/hrsh7th/cmp-calc)
-- [cmp-emoji](https://github.com/hrsh7th/cmp-emoji)
 - [cmp-spell](https://github.com/f3fora/cmp-spell)
+- [cmp-emoji](https://github.com/hrsh7th/cmp-emoji)
 - [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)
+- [cmp-cmdline-history](https://github.com/dmitmel/cmp-cmdline-history)
+- [cmp-nvim-lsp-document-symbol](https://github.com/hrsh7th/cmp-nvim-lsp-document-symbol)
 
 Snippet engine - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 

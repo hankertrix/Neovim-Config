@@ -168,8 +168,8 @@ return {
         { "hrsh7th/cmp-nvim-lsp-signature-help" },
         { "ray-x/cmp-treesitter" },
         { "saadparwaiz1/cmp_luasnip" },
-        { "f3fora/cmp-spell" },
         { "hrsh7th/cmp-calc" },
+        { "f3fora/cmp-spell" },
         { "hrsh7th/cmp-emoji" },
         { "tzachar/cmp-tabnine", build = "powershell ./install.ps1" },
 

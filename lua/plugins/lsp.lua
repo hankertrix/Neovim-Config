@@ -18,7 +18,8 @@ local function lsp_setup()
     -- Ensure these LSP servers are installed
     lsp.ensure_installed({
         "sumneko_lua",
-        "pylsp"
+        "pylsp",
+        "marksman"
     })
 
     -- Set up the Lua LSP to be used for Neovim configuration
