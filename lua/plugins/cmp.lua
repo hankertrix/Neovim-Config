@@ -123,9 +123,9 @@ local function cmp_setup()
     cmp.setup.cmdline({ "/", "?" }, {
         mapping = cmp_cmdline_mappings,
         sources = cmp.config.sources({
-            { name = "nvim_lsp_document_symbol" }
-        }, {
-            { name = "buffer" }
+            { name = "nvim_lsp_document_symbol" },
+            { name = "buffer" },
+            { name = "cmdline_history" }
         })
     })
 
@@ -134,20 +134,20 @@ local function cmp_setup()
     cmp.setup.cmdline(":", {
         mapping = cmp_cmdline_mappings,
         sources = cmp.config.sources({
-            { name = "path" }
-        }, {
+            { name = "path" },
             {
                 name = "cmdline",
                 option = {
                     ignore_cmds = { "Man", "!" }
                 }
-            }
+            },
+            { name = "cmdline_history" }
         })
     })
 
 
     -- Set up the completion sources for text and markdown files
-    cmp.setup.filetype({ "text", "markdown"}, {
+    cmp.setup.filetype({ "text", "markdown" }, {
         sources = default_sources
     })
 
@@ -159,6 +159,8 @@ return {
     config = cmp_setup,
     event = "InsertEnter",
     dependencies = {
+
+        -- Regular completion within a buffer
         { "hrsh7th/cmp-nvim-lsp" },
         { "hrsh7th/cmp-nvim-lua" },
         { "hrsh7th/cmp-path" },
@@ -169,7 +171,11 @@ return {
         { "f3fora/cmp-spell" },
         { "hrsh7th/cmp-calc" },
         { "hrsh7th/cmp-emoji" },
+        { "tzachar/cmp-tabnine", build = "powershell ./install.ps1" },
+
+        -- Completion within the command line
         { "hrsh7th/cmp-cmdline" },
+        { "dmitmel/cmp-cmdline-history" },
         { "hrsh7th/cmp-nvim-lsp-document-symbol" },
     }
 }

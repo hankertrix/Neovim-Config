@@ -17,7 +17,7 @@ local function comment_setup()
 
     -- Gets the escape key
     local esc = vim.api.nvim_replace_termcodes(
-    '<ESC>', true, false, true
+        "<ESC>", true, false, true
     )
 
     -- Toggle selection (linewise) in visual mode

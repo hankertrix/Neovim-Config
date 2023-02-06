@@ -20,7 +20,7 @@ return {
     "Exafunction/codeium.vim",
     event = "InsertEnter",
     lazy = true,
-    enabled = true,
+    enabled = false,
     cond = utils.firenvim_not_active,
     config = codeium_setup
 }

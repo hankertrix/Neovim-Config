@@ -50,7 +50,9 @@ M.source_names = {
     luasnip = "LuaSnip",
     nvim_lua = "Lua",
     latex_symbols = "LaTeX",
-    nvim_lsp_signature_help = "LSP Signature Help"
+    cmp_tabnine = "Tabnine",
+    nvim_lsp_signature_help = "LSP Signature Help",
+    cmdline_history = "Cmdline History"
 }
 
 
