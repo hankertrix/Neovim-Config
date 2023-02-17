@@ -127,3 +127,4 @@ VimBeGood game - [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)
 
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [fd](https://github.com/sharkdp/fd)
+- [gcc](https://gcc.gnu.org/)

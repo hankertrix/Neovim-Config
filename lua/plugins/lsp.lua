@@ -17,7 +17,7 @@ local function lsp_setup()
 
     -- Ensure these LSP servers are installed
     lsp.ensure_installed({
-        "sumneko_lua",
+        "lua_ls",
         "pylsp",
         "marksman"
     })
@@ -46,8 +46,8 @@ local function lsp_setup()
     local cmp_sources = {
         { name = "path" },
         { name = "nvim_lsp_signature_help" },
-        { name = "cmp_tabnine" },
         { name = "nvim_lsp", keyword_length = 3 },
+        { name = "cmp_tabnine" },
         { name = "buffer", keywword_length = 3 },
         { name = "treesitter", keyword_length = 3 },
         { name = "luasnip", keyword_length = 2 },
