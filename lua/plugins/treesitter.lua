@@ -17,6 +17,7 @@ local function treesitter_setup()
             "python",
             "markdown",
             "json",
+            "org",
             "c",
             "lua",
             "vim",
